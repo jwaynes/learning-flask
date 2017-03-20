@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet'>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="static/img/byucorpuslogo.jpg" alt="" width="276" height="45" src="static/img/blank.gif"/>
+       </div>
+    </header>
+    
+    {% block content %}
+    {% endblock %}
+    
+  </body>
+</html>
